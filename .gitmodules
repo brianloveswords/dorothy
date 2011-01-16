@@ -1,0 +1,3 @@
+[submodule]
+  path = include/toto
+  url = git://github.com/brianlovesdata/toto.git
