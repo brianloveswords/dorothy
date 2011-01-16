@@ -1,4 +1,4 @@
-require 'toto'
+require File.expand_path('./toto/lib/toto.rb')
 
 @config = Toto::Config::Defaults
 

@@ -1,5 +1,4 @@
-
-require 'toto'
+require File.expand_path('./toto/lib/toto.rb')
 
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
