@@ -108,3 +108,26 @@ body > footer {
    font-size: 18px;
    color: #888;
 }
+nav.tags {
+   font-size: 16px;
+}
+nav.tags span, nav.tags a {
+   margin-left: 3px;
+   text-decoration: none;
+}
+
+nav.tags a:hover {
+   text-decoration: underline;
+}
+
+nav.tags span:before {
+   content: '|';
+}
+
+nav.tags span:first-child, nav.tags span:first-child a {
+   margin-left: 0;
+}
+nav.tags span:first-child:before {
+   content: '';
+}
+
