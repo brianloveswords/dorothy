@@ -1,0 +1,3 @@
+[submodule "toto"]
+	path = toto
+	url = git@github.com:brianlovesdata/toto.git
