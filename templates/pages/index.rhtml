@@ -9,6 +9,11 @@
       <section class="content">
         <%= article.summary %>
       </section>
+      <nav class="tags">
+        <% for tag in article.tags %>
+          <a href='/<%= tag %>'> <%= tag %> </a>
+        <% end %>
+     </nav>
       <div class="more"><a href="<%= article.path %>">read on &raquo;</a></div>
     </article>
   <% end %>
@@ -17,4 +22,3 @@
 <section id="archives">
   <%= archives[3..-1] %>
 </section>
-
