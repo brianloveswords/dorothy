@@ -11,7 +11,7 @@
       </section>
       <nav class="tags">
         <% for tag in article.tags %>
-          <a href='/<%= tag %>'> <%= tag %> </a>
+          <span><a href='/<%= tag %>'> <%= tag %> </a></span>
         <% end %>
      </nav>
       <div class="more"><a href="<%= article.path %>">read on &raquo;</a></div>
