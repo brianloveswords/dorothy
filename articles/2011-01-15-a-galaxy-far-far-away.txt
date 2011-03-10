@@ -1,8 +1,0 @@
-title: A Galaxy Far, Far Away
-author: Brian J Brennan
-date: 2011/01/15
-tags:  more tagging testing
-
-Luke lived in the midst of the great Tattoine desert, with Uncle Owen, 
-who was a farmer, and Aunt Beru, who was the farmer's wife.
-

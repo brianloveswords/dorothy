@@ -164,10 +164,15 @@ blockquote {
 
 body > footer {
    text-align: left;
+   margin-top: 10px
    margin-left: 10px;
-   font-style: italic;
-   font-size: 18px;
-   color: #888;
+   font-size: 14px;
+   color: #777;
+}
+body > footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
 }
 nav.tags {
    font-size: 16px;
