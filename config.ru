@@ -24,9 +24,10 @@ toto = Toto::Server.new do
   # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
   # set :cache,      28800                                    # cache duration, in seconds
 
-  set :title,     "Brian Loves Words"                     # site title
-  set :ext,       'md'
-  set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+  set :title,   "Brian Loves Words"                     # site title
+  set :url,     "http://words.brianloves.it/"                           # root URL of the site
+  set :ext,     'md'
+  set :date,    lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
 end
 
 run toto
